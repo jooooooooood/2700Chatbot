@@ -20,7 +20,9 @@ app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
 
+
 // Function to send a message to OpenAI and get a response
+// This is wrong
 async function sendMessage() {
     // Get the user's message from the input field
     const userMessage = document.getElementById("user-input").value;
